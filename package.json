@@ -1,0 +1,14 @@
+{
+  "name": "ips_generator",
+  "version": "1.0.0",
+  "description": "wealth management tool that is a re-do of the existing ips generation tool",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "achan9528",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
