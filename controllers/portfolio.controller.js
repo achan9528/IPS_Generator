@@ -3,13 +3,9 @@ const Portfolio = require("../models/portfolio.model");
 module.exports.findAllPortfolios = (req, res) => {
     Portfolio.find()
         .then(allDaPortfolios => {
-            console.log('here')
-            console.log(allDaPortfolios)
             return res.json({ portfolios: allDaPortfolios })
         })
         .catch(err => {
-            console.log('err here')
-            console.log(err)
             return res.json({ message: "Something went wrong", error: err })
         });
 };
